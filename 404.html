@@ -1,0 +1,18 @@
+<!doctype html>
+<meta name="robots" content="noindex, nofollow" />
+<html lang="en">
+  <meta http-equiv="refresh" content="0;url=/" />
+  <link rel="icon" type="image/x-icon" href="favicon.ico" />
+  <title>365Wonders</title>
+  <script>
+    var path = window.location.pathname;
+
+    var customRedirects = {};
+
+    if (customRedirects[path]) {
+      window.location.replace(customRedirects[path]);
+    } else {
+      window.location.replace("https://365wonders.pages.dev" + path);
+    }
+  </script>
+</html>
